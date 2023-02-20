@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quản Lý Sinh Viên</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="contaniner">
+
+            <form action="" id="listStudent">
+                <h3>From Nhập Thông Tin</h3>
+                <label for="studentName">Họ và Tên:</label>
+                <input type="text" id="studentName" placeholder="Nhập họ tên">
+                <br>
+                <label for="studentMail">Email:</label>
+                <input type="text" id="studentMail" placeholder="Nhập Email">
+                <br>
+                <label for="studentPhone">Số điện Thoại:</label>
+                <input type="text" id="studentPhone" placeholder="Nhập Số điện Thoại">
+                <br>
+                <label for="studentPlace">Quê Quán:</label>
+                <input type="text" id="studentPlace" placeholder="Nhập Quê Quán">
+                <br>
+                <label for="">Giới Tính:</label>
+                <select name="" id="studentGende">
+                    <option value="Nam">
+                        Nam</option>
+                    <option value="Nữ">Nữ</option>
+                </select>
+                <br>
+                <button id="btCreate">Lưu lại</button>
+            </form>
+            <div id="tableStudent">
+                <h3>Danh Sách Sinh Viên</h3>
+                <table border="1">
+                    <thead>
+                        <tr>
+
+                            <td>STT</td>
+                            <td>Họ Tên</td>
+                            <td>Email</td>
+                            <td>Số điện thoại</td>
+                            <td>Địa chỉ</td>
+                            <td>Hành Động</td>
+
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+
+                </table>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>

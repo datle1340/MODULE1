@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #636363;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.contaniner {
+  display: flex;
+  margin-top: 20px;
+}
+#listStudent {
+  margin-left: 10px;
+}
+#tableStudent {
+  margin-left: 20px;
+}
